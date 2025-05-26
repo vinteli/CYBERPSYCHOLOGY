@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Main Boleh, Kecanduan Jangan!</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Main Boleh, Kecanduan Jangan!</h1>
+    <p>Kampanye Digital Cegah Adiksi Game Online</p>
+  </header>
+
+  <nav>
+    <a href="#edu">Apa Itu Adiksi Game?</a>
+    <a href="#quiz">Self-Check</a>
+    <a href="#tips">Tips Sehat</a>
+    <a href="#blog">Blog</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section id="edu">
+    <h2>Apa Itu Adiksi Game?</h2>
+    <p>Adiksi game terjadi ketika seseorang bermain game secara berlebihan hingga mengganggu aktivitas harian, tidur, sekolah atau relasi sosial. Kondisi di mana seseorang tidak bisa mengendalikan kebiasaan bermain game, sehingga berdampak negatif pada kehidupan sehari-hari.</p>
+  </section>
+
+  <section id="quiz">
+    <h2>Self-Check: Apakah Kamu Kecanduan Game?</h2>
+    <form id="quizForm">
+      <p>1. Saya sering merasa sulit berhenti bermain meski sudah berjam-jam.</p>
+      <label><input type="radio" name="q1" value="1"/> Ya</label>
+      <label><input type="radio" name="q1" value="0"/> Tidak</label>
+
+      <p>2. Saya sering mengabaikan tugas/kegiatan karena game.</p>
+      <label><input type="radio" name="q2" value="1"/> Ya</label>
+      <label><input type="radio" name="q2" value="0"/> Tidak</label>
+
+      <p>3. Saya merasa cemas atau marah saat tidak bisa bermain.</p>
+      <label><input type="radio" name="q3" value="1"/> Ya</label>
+      <label><input type="radio" name="q3" value="0"/> Tidak</label>
+
+      <p>4. Saya sering tidur larut karena main game.</p>
+      <label><input type="radio" name="q4" value="1"/> Ya</label>
+      <label><input type="radio" name="q4" value="0"/> Tidak</label>
+
+      <p>5. Game membuat saya menjauh dari keluarga/teman.</p>
+      <label><input type="radio" name="q5" value="1"/> Ya</label>
+      <label><input type="radio" name="q5" value="0"/> Tidak</label>
+
+      <br/><br/>
+      <button type="button" onclick="hitungSkor()">Lihat Hasil</button>
+    </form>
+    <div id="hasilQuiz"></div>
+  </section>
+
+  <section id="tips">
+    <h2>Tips Game-Smart Habits</h2>
+    <ul>
+      <li>Atur jadwal bermain maksimal 1-2 jam per hari</li>
+      <li>Gunakan alarm untuk mengingatkan waktu istirahat</li>
+      <li>Jangan bermain sebelum menyelesaikan tugas utama</li>
+      <li>Aktif bersosialisasi di dunia nyata</li>
+    </ul>
+  </section>
+
+  <section id="blog">
+    <h2>Artikel: Seimbang Dunia Nyata dan Digital</h2>
+    <p>Game memang menyenangkan, tapi jangan sampai hidupmu dikendalikan layar. Baca artikel kami tiap minggu!</p>
+  </section>
+
+  <section id="kontak">
+    <h2>Hubungi & Ikuti Kami</h2>
+    <p>Instagram: <a href="#">@mainboleh.id</a></p>
+    <p>TikTok: <a href="#">@game.smart</a></p>
+    <p><em>Scan QR Code di poster digital untuk akses cepat!</em></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kampanye Digital Cyberpsychology</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
